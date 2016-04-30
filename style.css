@@ -1,0 +1,73 @@
+/*
+Theme Name: Dr. Sounds
+Theme URI: http://www.tungevagraaban.com
+Description: Theme for Tungevagraaban
+Version: 1
+Author: Chris Spooner
+Author URI: http://www.spoongraphics.co.uk
+*/
+@import url("css/bootstrap.css");
+:root {
+	--primary-color: #00E5FF;
+	--secondary-color: #1DE9B6;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+	background-color: var(--primary-color);
+	border: var(--primary-color);
+}
+.btn-primary:hover, .btn-primary:active {
+	background-color: var(--secondary-color);
+	border: var(--secondary-color);
+}
+a {
+	color: var(--primary-color);
+}
+.btn-primary:active {
+	-webkit-filter: brightness(50%);
+}
+
+.card {
+	background: none;
+	border: 1px solid #eee;
+}
+
+.col-md-4, .col-md-3 {
+	box-sizing: border-box;
+}
+
+.navbar-white .navbar-nav > .active {
+	border-bottom :2pt solid var(--primary-color);
+}
+.navbar-white {
+	border-bottom: 2pt solid #eee;
+	box-sizing: border-box	;
+}
+
+.navbar-brand, .navbar-nav {
+	box-sizing: border-box;
+}
+.navbar-nav {
+	margin-bottom: -2pt;
+}
+
+.iconbar {
+	list-style: none;
+}
+.iconbar li {
+	display: inline-block;
+
+	margin-right: 30pt;
+}
+.bar {
+	background-color: #222;
+}
+.iconbar a {
+	color: white;
+	opacity: 0.8;
+}
+.iconbar a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
